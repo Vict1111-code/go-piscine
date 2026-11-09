@@ -1,1 +1,1 @@
-jq '.[] | select(.id == 1000) | .name' superheroes.json
+jq '.[] | select(.id == 70) | .name' superheroes.json
